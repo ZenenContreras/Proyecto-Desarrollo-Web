@@ -10,7 +10,7 @@
             width: 100%;
             height: 10%;
             }
-            #menuPrincipal {
+            #menuprincipal {
             height: 10%;
             }
 
@@ -27,23 +27,60 @@
             {
                 color:green;
             }
+            h1, h2{
+                margin-left: 20%;
+            }
+            ul{
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+            p{
+                font-size:large;
+                margin-left: 20%;
+            }
         </style>
     </head>
     <body>
-        <table id = "menuPrincipal">
+        <table id = "menuprincipal">
             <thead>
                 <tr>
-                    <th><a href = "equipo.html">Presentaci&oacuten Del Equipo</a></th>
-                    <th><a href = "descriProyecto.html">Descripción Del Proyecto</a></th>
+                    <th><a href = "equipo.html">presentaci&oacuten Del Equipo</a></th>
+                    <th><a href = "descriproyecto.html">Descripción Del proyecto</a></th>
                     <th><a href = "reqs.html">Requerimientos</a></th>
-                    <th><a href = "arquiProyecto.html">Arquitectura Del Proyecto</a></th>
+                    <th><a href = "arquiproyecto.html">Arquitectura Del proyecto</a></th>
                     <th><a href = "desarrollo.html">Desarrollo</a></th>
-                    <th><a href = "pruebas.html">Pruebas</a></th>
+                    <th><a href = "pruebas.html">pruebas</a></th>
                     <th><a href = "despliegue.html">Despliegue</a></th>
                     <th><a href = "contactanos.html">Cont&aacutectanos</a></th>
                 </tr>
             </thead>
         </table>
-        <script src="menuPrincipal.js"></script>
+        <h1>&Iacutendice</h1>
+        <p><a href='#reqFunc'>Requisitos Funcionales</a></p>
+        <p><a href='#reqNoFunc'>Requisitos No Funcionales</a></p>
+        <h2 id="reqFunc">Requisitos Funcionales:</h2>
+            <ul>
+                <li>El sistema debe permitir a los usuarios buscar propiedades para poder solicitar el arriendo en fechas específicas.</li>
+                <li>El sistema debe permitir a los usuarios activar sus cuentas para que puedan acceder a las herramientas y recursos necesarios para realizar las actividades del sistema.</li> 
+                <li>El sistema debe permitir a los usuarios crear una cuenta en el sistema para manejar propiedades, de manera que puedan acceder a las herramientas y recursos necesarios para realizar las actividades del sistema.</li> 
+                <li>El sistema debe permitir a los usuarios cancelar la solicitud de arriendo.</li> 
+                <li>El sistema debe permitir a los usuarios aceptar la solicitud de arriendo.</li> 
+                <li>El sistema debe permitir a los usuarios ver las solicitudes de arriendo para aceptarlas o rechazarlas.</li> 
+                <li>El sistema debe permitir a los usuarios desactivar propiedades para que no les arrienden propiedades que ya no tienen en su disposición.</li>  
+                <li>El sistema debe permitir a los usuarios autenticarse en el sistema para realizar el paso previo para pagar el posible arriendo.</li>
+                <li>El sistema debe permitir a los usuarios autenticarse en el sistema para verificar sus solicitudes de arriendo.</li>
+                <li>El sistema debe permitir a los usuarios editar sus propiedades para poder arrendarlas y actualizarlas.</li>     
+                <li>El sistema debe permitir a los usuarios autenticarse en el sistema para pagar los arriendos.</li> 
+                <li>El sistema debe permitir a los usuarios calificar a los arrendatarios para poder verificar y mostrar qué tan buenos son los arrendatarios.</li>
+                <li>El sistema debe permitir a los usuarios crear propiedades para poder arrendarlas.</li> 
+                <li>El sistema debe permitir a los usuarios ver las propiedades que tienen a su cargo para poder realizar las acciones que el sistema permite.</li>
+            </ul>
+
+        <h2 id="reqNoFunc">Requisitos No Funcionales:</h2>
+            <ul>
+                <li>El sistema debe permitir a los usuarios autenticarse en el sistema para poder acceder de forma segura a sus cuentas.</li> 
+                <li>El sistema debe permitir a los usuarios subir fotos de las propiedades para poder mostrar las propiedades de mejor forma.</li>  
+            </ul>
+        <script src="menuprincipal.js"></script>
     </body>
 </html>

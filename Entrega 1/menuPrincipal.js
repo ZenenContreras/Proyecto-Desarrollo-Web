@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() { 
     var menu = document.querySelector("#menuPrincipal");
     var menuOffset = menu.offsetTop;
 
@@ -8,5 +8,17 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             menu.classList.remove("fijo");
         }
+    });
+
+    var links = document.querySelectorAll("a");
+
+    links.forEach(function(link) {
+        link.addEventListener("mouseover", function() {
+            this.style.color = "blue";
+        });
+
+        link.addEventListener("mouseout", function() {
+            this.style.color = "";
+        });
     });
 });
