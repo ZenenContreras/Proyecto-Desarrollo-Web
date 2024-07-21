@@ -1,0 +1,43 @@
+.fijo {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+#menuPrincipal {
+    height: 10%;
+}
+
+table {
+     width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th a{
+    color: green;
+
+}
+
+h1{
+    text-align: center;
+    color:green;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 300%;
+}
+
+.sinNegrilla{
+    font-weight: normal;
+}
+
+.nombres{
+    font-size: 200%;
+}
