@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() { 
-    var menu = document.querySelector("#menuPrincipal");
+    var menu = document.querySelector("#menu");
     var menuOffset = menu.offsetTop;
 
     window.addEventListener("scroll", function() {

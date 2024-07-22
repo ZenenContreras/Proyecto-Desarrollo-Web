@@ -1,24 +1,50 @@
-div.contenedorXD{
-    text-align: center;
+body{
+    font-family: sans-serif;
+    margin: 0;
 }
-h1{
-    color: green;
-    font-family: "Copperplate", "Times New Roman";
-    font-size: 30px;
-    line-height: 3;
-    font-size: 50px;
-    text-align: center;
+
+header a{
+    text-decoration: none;
+    color: black;
 }
-ul {
-    color: green;
-    font-family: "Copperplate", "Times New Roman";
-    font-size: 30px;
-    line-height: 2.5;
-    display: inline-block;
-    text-align: left;
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #8da5b4;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-a {
-    color: green;
-    font-family: "Copperplate", "Times New Roman";
-    font-size: 30px;
+
+.logo{
+    display:flex; 
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width: 1050px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    
 }
