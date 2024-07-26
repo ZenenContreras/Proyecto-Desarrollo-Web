@@ -38,6 +38,10 @@ h5{
     font-family: 'syne', sans-serif;
 }
 
+h6{
+    font-family: 'syne', sans-serif;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -103,7 +107,7 @@ p{
     text-align: center;
 }
 .equipo{
-    padding: 10px 0 80px 0 ;
+    padding: 10px 0 100px 0 ;
     background-color: #f1f1f1;
 }
 
@@ -126,4 +130,22 @@ h3 a:hover{
     color: #c1c1c1; 
 }
 
+/* Footer */
+
+footer{
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container img{
+    width: 12px;
+}
 
