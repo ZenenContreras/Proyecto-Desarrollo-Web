@@ -1,49 +1,105 @@
-body{
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@400..800&display=swap');
+
+/* RESET*/
+*{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-header a{
+/* Main */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 2.7rem;
+    font-family: 'syne', sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'syne', sans-serif;
+}
+
+h3{
+    font-size: 1.7rem;
+    font-family: 'syne', sans-serif;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-family: 'syne', sans-serif;
+}
+
+h5{
+    font-size: 1rem;
+    font-family: 'syne', sans-serif;
+}
+
+a{
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
-header{
-    display: flex;
-    min-height: 70px;
-    background-color: #8da5b4;
-    justify-content: space-between;
-    align-items: center;
+ul{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'syne', sans-serif;
     padding: 10px;
 }
 
-.logo{
-    display:flex; 
+/* Navbar */
+
+.navbar{
+    min-height: 80px;
+    padding-inline: 10px;
+}
+
+.navbar .wiki{
+    height: 80px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.logo img{
-    height: 30px;
-    margin-right: 10px;
-
+.navbar .logo{
+    display: flex;
+    align-items: center;
 }
 
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
-nav a:hover{
-    color: white;
+.container ul li{
+    margin-left: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-@media (max-width: 1050px) {
-    header{
-        flex-direction: column;
-    }
+.container ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
 
-    nav{
-        padding: 10px 0px;
-        text-align: center;
-    }
+.container ul li a:hover{
+    color: #c1c1c1;
+}
+
+/* Arquitectura */
+
+.arquitectura{
+    height: 800px;
+    padding: 80px;
+    background-color: #f1f1f1 ;
 }
