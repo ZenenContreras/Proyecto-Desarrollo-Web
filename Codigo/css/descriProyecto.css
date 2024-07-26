@@ -38,6 +38,10 @@ h5{
     font-family: 'syne', sans-serif;
 }
 
+h6{
+    font-family: 'syne', sans-serif;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -133,3 +137,21 @@ h3 a:hover{
     background-color: #f1f1f1;
 }
 
+/* Footer */
+
+footer{
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container img{
+    width: 12px;
+}
