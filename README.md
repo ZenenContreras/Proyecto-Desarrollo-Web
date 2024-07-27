@@ -22,5 +22,9 @@ cd html
 
 ## Autores:
 
-
+* [Jorge Torrado](https://github.com/JorgeETorradoF)
+* [Zenen Contreras](https://github.com/ZenenContreras)
+* [Juan Vasquez](https://github.com/FTTE27)
+* [Erick Camargo](https://github.com/Erickcg2014)
+* [Juan Cifuentes](https://github.com/CIFU1104)
 
