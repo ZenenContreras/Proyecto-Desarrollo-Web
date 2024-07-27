@@ -123,7 +123,12 @@ p{
     padding: 20px;
     flex: 1;
     border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    transition: 400ms;
+}
+
+.equipo-box:hover{
+    transform: scale(1.02,1.02);
 }
 
 h3 a:hover{
