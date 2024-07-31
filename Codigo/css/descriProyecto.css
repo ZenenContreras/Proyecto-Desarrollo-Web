@@ -135,7 +135,34 @@ h3 a:hover{
 .descripcion{
     padding: 80px;
     background-color: #f1f1f1;
+    text-align: center;
 }
+
+.perfiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario {
+    margin: 12px;
+    padding: 20px;
+    flex: 1; 
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 400ms;
+    display: flex; 
+    flex-direction: column;
+}
+
+.funciones, .trabajo {
+    margin-top: 10px; 
+}
+
+
+
+
+
+
 
 /* Footer */
 
