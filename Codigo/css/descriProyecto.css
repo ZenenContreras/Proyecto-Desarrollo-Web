@@ -14,6 +14,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 h1{
     font-size: 2.7rem;
     font-family: 'syne', sans-serif;
@@ -165,11 +171,6 @@ h3 a:hover{
 .funciones, .trabajo {
     margin-top: 10px; 
 }
-
-
-
-
-
 
 
 /* Footer */

@@ -13,6 +13,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 h1{
     font-size: 2.7rem;
     font-family: 'syne', sans-serif;

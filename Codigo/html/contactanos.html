@@ -24,13 +24,37 @@
 				</ul>
 			</div>
 		</nav>
-
+		
 		<!-- Contactanos -->
-
 		<div class="contactanos">
+			<div class="container">
+				<h2>Contáctanos</h2>
+				<p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos llenando el siguiente formulario:</p>
+				<form id="contactForm" action="tu-script-de-procesamiento.php" method="post" novalidate>
+					<div class="form-group">
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre" class="form-control" required>
+						<div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+					</div>
 
-			
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" class="form-control" required>
+						<div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
+					</div>
+
+					<div class="form-group">
+						<label for="mensaje">Mensaje:</label>
+						<textarea id="mensaje" name="mensaje" class="form-control" required ></textarea>
+						<div class="invalid-feedback">Por favor, ingresa un mensaje.</div>
+					</div>
+
+					<button type="submit" class="btn-submit">Enviar</button>
+				</form>
+			</div>
 		</div>
+
+
 
         <!-- Footer -->
 
@@ -45,5 +69,6 @@
         </footer>		
 
         <script src="../js/menuPrincipal.js"></script>
+		<script src="../js/"></script>
     </body>
 </html>
