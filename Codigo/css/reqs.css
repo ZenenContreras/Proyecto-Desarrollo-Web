@@ -56,6 +56,10 @@ p{
     padding: 10px;
 }
 
+li{
+    padding: 2px;
+}
+
 /* Navbar */
 
 .navbar{
@@ -137,7 +141,44 @@ h3 a:hover{
     height: 795px;
     padding: 80px;
     background-color: #f1f1f1;
+    display: flex;
+    gap: 10px; 
 }
+
+.funcionales {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    transition: 400ms;
+}
+
+.funcionales h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.nofuncionales{
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    transition: 400ms;
+}
+
+.nofuncionales h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.funcionales:hover{
+    transform: scale(1.05,1.05);
+}
+
+.nofuncionales:hover{
+    transform: scale(1.05,1.05);
+}
+
 
 /* Footer */
 
