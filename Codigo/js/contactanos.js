@@ -23,6 +23,5 @@ document.addEventListener('DOMContentLoaded', function() {
             email.classList.remove('is-invalid');
         }
 
-        // Otros campos pueden ser validados de forma similar
     }
 }, false);
